@@ -26,7 +26,7 @@ header,footer {
     background-blend-mode: color-burn;
 
     padding: 10px;
-    background-color: brown;
+    background-color: pink;
     color: #f1f1f1;
 }
 
@@ -60,7 +60,7 @@ nav {
     flex-direction: column;
 
     border-left: solid 1px #f1f1f1;
-    background-color: #a52a2a90;
+    background-color: black;
     backdrop-filter: blur(3px);
     color: #f1f1f1;
 
@@ -82,7 +82,7 @@ nav ul {
 }
 
 nav li a{
-    border-bottom: solid 1px #a52a2a25;
+    border-bottom: solid 1px goldenrod;
 }
 
 nav li:first-child a {
@@ -105,7 +105,7 @@ nav a {
     width: 120px;
     padding: 10px;
     background-color: #f1f1f1;
-    color: brown;
+    color: gold;
     transition: all .1s linear;
     text-decoration: none;
 }
@@ -148,7 +148,7 @@ nav a:active {
     padding-right: 40px;
     padding-left: 20px;
     border-radius: 3px;
-    background-color: brown;
+    background-color: palevioletred;
     overflow: hidden;
     width: max-content;
     margin: 0 0 0 -20px;
@@ -162,7 +162,7 @@ nav a:active {
 }
 
 marquee img {
-    border: solid 2px black;
+    border: solid 2px whitesmoke;
     border-radius: 10px;
     transform: skewX(5deg);
     height: 120px;
@@ -196,7 +196,7 @@ marquee img:hover {
     position: relative;
 
     background-color: brown;
-    border: solid 3px brown;
+    border: solid 3px blue;
     border-radius: 10px;
 
     width: 240px;
@@ -227,7 +227,7 @@ marquee img:hover {
     top: 0;
     left: 0;
 
-    color: #f1f1f1;
+    color: black;
     padding: 10px;
 
     display: flex;
@@ -254,7 +254,7 @@ marquee img:hover {
     transform: skewX(5deg);
     transition: all .1s linear;
     padding: 5px 20px;
-    border: solid 1px #f1f1f1;
+    border: solid 1px blanchedalmond;
     background-color: brown;
     color: #f1f1f1;
     border-radius: 5px;
@@ -264,9 +264,9 @@ marquee img:hover {
 }
 
 .game_content button:hover {
-    border: solid 1px #f1f1f1;
-    background-color: #f1f1f1;
-    color: brown;
+    border: solid 1px wheat;
+    background-color: whitesmoke;
+    color: navy;
 }
 
 .game_content button:active {
